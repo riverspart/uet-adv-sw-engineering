@@ -1,0 +1,26 @@
+Chương 1: Yêu cầu phần mềm
+
+Slide 1: Thuật ngữ phổ biến
+- CIA: Confidentiality, Integrity, and Availability(Độ tin cậy, Tính toàn vẹn, tính tiện lợi)
+- DAG: Directed Acyclic Graph (Đồ thị có hướng và không có chu trình)
+- FSM: Functional Size Measurement (Thước đo chức năng)
+- INCOSE: International Council on Systems Engineering ()
+- UML: Unified Modeling Language (Ngôn ngữ mô hình hóa)
+- SysML: Systems Modeling Language (Ngôn ngữ mô hình hóa hệ thống)
+
+Slide 2: Định nghĩa
+- Hình 1-2
+
+Slide 3: Định nghĩa
+- Yêu cầu cho 1 phần mềm cụ thể là tổng hợp những yêu cầu từ nhiều người khác nhau về tổ chức, mức độ chuyên môn và mức độ tham gia, tương tác với phần mềm trong môi trường hoạt động của nó.
+- Có thể kiểm chứng một cách riêng rẽ ở mức chức năng(yêu cầu chức năng) hoặc mức hệ thống(yêu cầu phi chức năng)
+- Cung cấp các chỉ số đánh giá độ ưu tiên về các mặt khi cân nhắc về nguồn tài nguyên.
+- Cung cấp các giá trị trạng thái để theo dõi tiến độ của dự án.
+
+Slide 4: Phân loại
+- Theo sản phẩm và tiến trình
++ Yêu cầu sản phẩm: là những đòi hỏi hay ràng buộc mà phần mềm phải thực hiện.
++ Yêu cầu tiến trình: là những ràng buộc liên quan đến việc phát triển phần mềm đó(quy trình, đối tác kiểm thử, phân tích, kĩ thuật sử dụng,...).
+- Theo chức năng
++ Yêu cầu chức năng: đặc tả các chức năng mà phần mềm phải thực hiện.
++ Yêu cầu phi chức năng: là các ràng buộc về giải pháp và chất lượng(hiệu năng, việc bảo trì, độ an toàn, bảo mật,...).
