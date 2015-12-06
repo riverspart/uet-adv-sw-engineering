@@ -1,35 +1,57 @@
-Chuong 1: Y�u c?u ph?n m?m
+Chuong 1: Yêu cầu phần mềm
 
-Slide 1: Th?m d?nh y�u c?u
-- kh�i ni?m
-	Th?m d?nh y�u c?u quan t�m d?n vi?c ch?ng t? r?ng c�c y�u c?u d?nh nghia du?c h? th?ng m� kh�ch h�ng th?c s? mu?n. Vi?c th?m d?nh ph?i d?m b?o d? hi?u, nh?t qu�n v� ho�n thi?n
-- c�c ki thu?t th?m d?nh y�u c?u
-+ xem l?i y�u c?u
-+ prototype
-+ th?m d?nh m� h�nh
-+ ki?m th? ch?p thu?n
-Slide 2: xem l?i y�u c?u
-- �?c v� ph�n t�ch l?i t�i li?u y�u c?u (t�i li?u mi�u t? h? th?ng, t�i li?u d?c t? h? th?ng, d?c t? y�u c?u ph?n m?m, ...)  m?t c�ch c� h? th?ng d? t�m l?i, tr�nh vi?c thi?u r� r�ng, tr�nh vi?c di l?c hu?ng c�a c�c bu?c ti?p theo
-- Ch� � kh�ng d�ng chuong tr�nh t? d?ng d? l�m vi?c n�y
+Slide 1: Thẩm định yêu cầu
+- Khái niệm
+	Thẩm định yêu cầu quan tâm đến việc chứng tở rằng các yêu cầu định nghĩa được hệ thống mà khách hàng thực sự muốn. Việc thẩm định phải đảm bảo dễ yểu, nhất quán và hoàn thiện
+	
+- Các kĩ thuật thẩm định yêu cầu
++ xem lại yêu cầu
++ sử dụng phiên bản mẫu, thử nghiệm
++ thầm định mô hình
++ kiểm thử chấp thuận
+Slide 2: xem lại yêu cầu
+- đọc và phân tích lại tài liệu yêu cầu (tài liệu miêu tả hệ thống, tài liệu đặc tả hệ thống, yêu cầu phần mềm, ...) một cách có hệ thống để tìm lỗi, tránh việc thiếu rõ ràng, tránh việc đi lạc hướng của các bước tiếp theo.
+- Việc duyệt lại các yêu cầu không được dùng chương trình tự động.
 
-Slide 3: Phi�n b?n m?u, th? nghi?m
-- D�ng m?t m� h�nh ch?y du?c c?a h? th?ng d? ki?m tra c�c y�u c?u
-- D�ng m� h�nh ch?y th? gi�p d? d�ng trong vi?c gi?i th�ch nh?ng y�u c?u c?a ph?n m?m, gi�p kh�ch h�ng c� nh?ng feedback k?p th?i d? l�m r� h? th?ng dang sai ? d�u
-- s? d?ng m� h�nh(v� d? Mockup,..) gi�p ngu?i l?p tr�nh cung nhu kh�ch h�ng d? hi?u, ti?t ki?m hon vi?c mi�u t? don thu?n d�ng van b?n ho?c m� h�nh d? h?a
-Slide 4: th?m d?nh m� h�nh
-- th?m d?nh l?i ch?t lu?ng c�c m� h�nh d� du?c ph�t tri?n trong su?t qu� tr�nh ph�n t�ch
-- c�c model ph?i d? c�c ti�u ch�: Ho�n thi�m, nh?t qu�n v� chu?n x�c
-Slide 5: ki?m th? ch?p thu?n
-- Vi?t c�c testcase d�nh cho c�c y�u c?u d? ki?m tra kh? nang d�p d?ng du?c y�u c?u end-user c?a ph?n m?m
-- S?n ph?m cu?i c�ng ph?i th?a m�n c�c testcase 
-Slide 6: Kh?o s�t th?c t?
-Qu?n l� s? thay d?i v� duy tr� nh?ng y�u c?u quy?t d?nh s? th�nh c�ng c?a ph?n m?m
-- 7.1
+Slide 3: Sử dụng phiên bản mẫu, thử nghiệm
+- dùng một mô hình chạy được của hệ thống để kiểm tra các yêu cầu
+- Dùng mô hình chạy thử giúp dễ dàng trong việc giải thích những yêu cầu của phần mềm, giúp khách hàng có những phản hồi kịp thời để làm rõ hệ thống đang sai ở dâu
+- sử dụng mô hình(ví dụ Mockup,..) giúp nguời lập trình cũng như khách hàng dẽ hiểu, tiết kiệm hon việc miêu tả đơn thuần dùng văn bản hoặc mô hình đồ họa
+Slide 4: thẩm định mô hình
+- thẩm định lại chất lượng các mô hình đã được phát triển trong suốt quá trình phân tích
+- các model phải đủ các tiêu chí: Hoàn thiện, nhất quán và chuẩn xác
+Slide 5: Kiểm thử chấp thuận
+- Viết các testcase dành cho các yêu cầu để kiểm tra khả năng đáp ứng được các yêu cầu end-user của phần mềm
+- Sản phẩm cuối cùng phải thỏa mãn các testcase 
+Slide 6: Khảo sát hiện trạng
+- Thực trạng có rất nhiều thay đổi, do đó quản lí những thay đổi và duy trì những yêu cầu quyết định sự thành công của phần mềm
+- Iterative Nature of the Requirements Process
 
-Slide 7. Qu?n l� thay d?i
-Slide 8. Thu?c t�nh c?a y�u c?u
-Slide 9. Truy v?t y�u c?u
-Slide 10. ��nh gi� y�u c?u
-Slide 11. C�ng c? s? d?ng trong vi?c l�m y�u c?u ph?n m?m
-- C�ng c? cho vi?c v? model
-- C�ng c? cho vi?c qu?n l� y�u c?u
+
+Slide 7. Quản lý thay đổi
+- Quản lý thay đổi là trung tâm và đặc biệt quan trọng của quản lý các yêu cầu.
+- Chủ đề này mô tả vai trò của thay đổi quản lý
+
+Slide 8. Định danh yêu cầu
+- Yêu cầu bao gồm không chỉ đặc tả hệ thống mà còn những thông liên quan, giúp dễ dàng quản lí và diễn giả yêu cầu
+- Đinh danh yêu cầu cần được định nghĩa, ghi nhân và cập nhật như phần phần mềm trong quá trình phát triển và bảo trì.
+- Bao gồm: 
++ classification dimensions
++ phương pháp xác minh
++ kế hoạch kiểm thử
++ thuộc dính duy nhất để thuận tiện cho việc tham chiếu giữa các yêu cầu và lần vết.
+
+Slide 9. Lần vết yêu cầu
+-Lần vết yêu cầu có liên quan với việc khôi phục nguồn của yêu cầu và dự đoán những ảnh hưởng của các yêu cầu.
+- Truy vết để thực hiện phân tích những ảnh hưởng khi yêu cầu thay đổi.
+- một yêu cầu nên được truy về những yêu cầu khác và các bên liên quan để thúc đẩy nó(ví dụ: tử yêu cầu phần mềm về yêu cầu hệ thống)
+- Ngược lại. một yêu cầu nên được truy đến những yêu cầu khác nhằm thỏa mãn nó(ví dụ: từ yêu cầu hệ thống đến yêu cầu phần mềm)
+
+Slide 10. Ðánh giá yêu cầu
+Đánh giá kích  thước của sự thay đổi yêu cầu.
+Đánh giá chi phí cho việc phát triển hoặc duy trì 1 yêu cầu
+
+
+Slide 11. Công cụ sử dụng trong việc làm yêu cầu phần mềm
+- Công cụ cho việc vẽ model (CASE tool)
+- Công cụ cho việc quản lí yêu cầu (spreadsheet, cơ sở dữ liệu,..)
