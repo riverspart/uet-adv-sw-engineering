@@ -1,4 +1,4 @@
-Chương 1: Yêu cầu phần mềm
+﻿Chương 1: Yêu cầu phần mềm
 
 Slide 1: Thuật ngữ phổ biến
 - CIA: Confidentiality, Integrity, and Availability(Độ tin cậy, Tính toàn vẹn, tính tiện lợi)
