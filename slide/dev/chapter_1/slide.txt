@@ -24,3 +24,14 @@ Slide 4: Phân loại
 - Theo chức năng
 + Yêu cầu chức năng: đặc tả các chức năng mà phần mềm phải thực hiện.
 + Yêu cầu phi chức năng: là các ràng buộc về giải pháp và chất lượng(hiệu năng, việc bảo trì, độ an toàn, bảo mật,...).
++ Yêu cầu đặc tả các thuộc tính nổi bật: là các đặc tả cho các thuộc tính phụ thuộc vào sự vận hành,… đặc biệt là kiến trúc hệ thống. Các thuộc tính này không thể xác định được cho từng thành phần đơn lẻ.
+
+Slide 5: Phân loại
+- Theo tính kiểm định
++ Mơ hồ, không thể kiểm định
++ Rõ ràng, định lượng và có thể kiểm định được.
+- Theo phạm vi đặc tả:
++ Yêu cầu hệ thống: đặc tả các cấu hình, cơ sở hạ tầng, phần cứng, phần mềm, con người, kỹ thuật,… của toàn bộ hệ thống.
++ Yêu cầu phần mềm: đặc tả các chức năng, giai diện,… của các cấu phần phần mềm.
+
+Slide 6: 
