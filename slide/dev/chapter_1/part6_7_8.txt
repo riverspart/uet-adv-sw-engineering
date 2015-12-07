@@ -1,8 +1,11 @@
 Chuong 1: Yêu cầu phần mềm
 
 Slide 1: Thẩm định yêu cầu
+Tất cả tài liệu yêu cầu cần được thông qua quá trình thẩm định và kiểm duyệt. Vậy Thẩm định yêu cầu là j?
 - Khái niệm
-	Thẩm định yêu cầu quan tâm đến việc chứng tở rằng các yêu cầu định nghĩa được hệ thống mà khách hàng thực sự muốn. Việc thẩm định phải đảm bảo dễ yểu, nhất quán và hoàn thiện
+	+ Thẩm định yêu cầu quan tâm đến việc chứng tở rằng các yêu cầu định nghĩa được hệ thống mà khách hàng thực sự muốn. Các yêu cầu phải được thẩm định để đảm bảo rằng người thực thi, người lập trình hiểu được yêu cầu. 
++ Việc thẩm định phải đảm bảo dễ hiểu, nhất quán và hoàn thiện
++ Thẩm định yêu cầu được quan tâm đến quá trình kiểm tra tài liệu yêu cầu có đảm bảo đầu ra là 1 phần mềm hoàn chỉnh, đúng đắn.
 	
 - Các kĩ thuật thẩm định yêu cầu
 + xem lại yêu cầu
@@ -11,35 +14,43 @@ Slide 1: Thẩm định yêu cầu
 + kiểm thử chấp thuận
 Slide 2: xem lại yêu cầu
 - đọc và phân tích lại tài liệu yêu cầu (tài liệu miêu tả hệ thống, tài liệu đặc tả hệ thống, yêu cầu phần mềm, ...) một cách có hệ thống để tìm lỗi, tránh việc thiếu rõ ràng, tránh việc đi lạc hướng của các bước tiếp theo.
-- Việc duyệt lại các yêu cầu không được dùng chương trình tự động.
+- Việc duyệt lại các yêu cầu không được dùng chương trình tự động mà phải là 1 nhóm người chuyên làm việc này.
 
 Slide 3: Sử dụng phiên bản mẫu, thử nghiệm
 - dùng một mô hình chạy được của hệ thống để kiểm tra các yêu cầu
 - Dùng mô hình chạy thử giúp dễ dàng trong việc giải thích những yêu cầu của phần mềm, giúp khách hàng có những phản hồi kịp thời để làm rõ hệ thống đang sai ở dâu
 - sử dụng mô hình(ví dụ Mockup,..) giúp nguời lập trình cũng như khách hàng dẽ hiểu, tiết kiệm hon việc miêu tả đơn thuần dùng văn bản hoặc mô hình đồ họa
+- sự biến động hay sự thay đổi yêu cầu sau khi dùng bản thử nghiệm là rất thấp bởi vì có sự thống nhất giữa người lập trình, khách hang và các bên liên quan.
+
 Slide 4: thẩm định mô hình
-- thẩm định lại chất lượng các mô hình đã được phát triển trong suốt quá trình phân tích
+- thẩm định lại chất lượng các mô hình đã được phát triển trong suốt quá trình phân tích.
+Ví dụ trong mô hình đối tượng, chúng ta phải kiểm tra xem liên kết giữa các đối tượng, giữa sự trao đổi dữ liệu có chuẩn xác không.
 - các model phải đủ các tiêu chí: Hoàn thiện, nhất quán và chuẩn xác
 Slide 5: Kiểm thử chấp thuận
 - Viết các testcase dành cho các yêu cầu để kiểm tra khả năng đáp ứng được các yêu cầu end-user của phần mềm
 - Sản phẩm cuối cùng phải thỏa mãn các testcase 
+
 Slide 6: Khảo sát hiện trạng
 - Thực trạng có rất nhiều thay đổi, do đó quản lí những thay đổi và duy trì những yêu cầu quyết định sự thành công của phần mềm
-- Iterative Nature of the Requirements Process
-
+- Không phải tổ chức nào cũng có thói quen làm tài liệu cũng như quản lý yêu cầu đặc biệt với những công ty mới thành lập hoặc những công ty có nguồn nhân lực hạn chế. Khi những công ty này mở rộng, số lượng khách hang trở lên lớn hơn, sản phẩm của họ bắt đầu phát triển, thì lúc này việc tìm lại những yêu cầu và thúc đẩy thêm nhiều tính năng  để đáp ứng nhu cầu thị trường và sự thay đổi của môi trường là rất cần thiết.
 
 Slide 7. Quản lý thay đổi
-- Quản lý thay đổi là trung tâm và đặc biệt quan trọng của quản lý các yêu cầu.
-- Chủ đề này mô tả vai trò của thay đổi quản lý
+- Yêu cầu phần mềm luôn luôn thay đổi: 
++ Môi trường doanh nghiệp và kĩ thuật thay đổi
+Phần cứng mới => giao diện mới.
+Luật thay đổi, nhu cầu doanh nghiệp thay đổi => thay đổi chức năng
++ Khách hàng, người sử dụng thay đổi => Thay đổi chức năng
++ Xung đột giữa các yêu cầu mới nảy sinh, và giữa yêu cầu mới với yêu cầu cũ
+	Quản lý thay đổi là trung tâm và đặc biệt quan trọng của quản lý các yêu cầu.
 
 Slide 8. Định danh yêu cầu
 - Yêu cầu bao gồm không chỉ đặc tả hệ thống mà còn những thông liên quan, giúp dễ dàng quản lí và diễn giả yêu cầu
 - Đinh danh yêu cầu cần được định nghĩa, ghi nhân và cập nhật như phần phần mềm trong quá trình phát triển và bảo trì.
 - Bao gồm: 
-+ classification dimensions
++ việc phân loại yêu cầu 
 + phương pháp xác minh
 + kế hoạch kiểm thử
-+ thuộc dính duy nhất để thuận tiện cho việc tham chiếu giữa các yêu cầu và lần vết.
++ thuộc tính duy nhất để thuận tiện cho việc tham chiếu giữa các yêu cầu và lần vết.
 
 Slide 9. Lần vết yêu cầu
 -Lần vết yêu cầu có liên quan với việc khôi phục nguồn của yêu cầu và dự đoán những ảnh hưởng của các yêu cầu.
@@ -51,7 +62,6 @@ Slide 10. Ðánh giá yêu cầu
 Đánh giá kích  thước của sự thay đổi yêu cầu.
 Đánh giá chi phí cho việc phát triển hoặc duy trì 1 yêu cầu
 
-
 Slide 11. Công cụ sử dụng trong việc làm yêu cầu phần mềm
-- Công cụ cho việc vẽ model (CASE tool)
+- Công cụ cho việc vẽ model (CASE tool , starUML )
 - Công cụ cho việc quản lí yêu cầu (spreadsheet, cơ sở dữ liệu,..)
