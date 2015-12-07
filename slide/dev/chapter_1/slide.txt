@@ -34,4 +34,28 @@ Slide 5: Phân loại
 + Yêu cầu hệ thống: đặc tả các cấu hình, cơ sở hạ tầng, phần cứng, phần mềm, con người, kỹ thuật,… của toàn bộ hệ thống.
 + Yêu cầu phần mềm: đặc tả các chức năng, giai diện,… của các cấu phần phần mềm.
 
-Slide 6: 
+Slide 6: Vị trí trong mô hình tiến trình
+- Xuất phát từ giai đoạn khởi tạo dự án, cho tới khi hoàn thiện các tiến trình trong vòng đời phát triển của phần mềm. Không chỉ là các hoạt động bề nổi nhìn thấy được.
+- Được nhận biết như phần cấu hình của mọi việc, và được quản lí như việc quản lí các cấu hình; hoặc là sản phẩm của các quá trình trong vòng đời phát triển.
+- Được thiết kế theo từng tổ chức và hoàn cảnh của từng dự án.
+
+
+Slide 7: Các nhân tố tham gia
+- Người dùng: vận hành phần mềm.
+- Khách hàng: gồm những người được hưởng mục tiêu cuối cùng của phần mềm, những giá trị thương mại mà phần mềm hướng đến.
+- Nhà phân tích thị trường: phân tích nhu cầu thị trường và tương tác với bên đại diện khách hàng.
+- Đại diện pháp lý: kiểm soát việc tuân thủ quy định, quy ước chung, quy định pháp lý.
+- Kỹ sư phần mềm: thu lợi nhuận hợp pháp từ việc phát triển phần mềm.
+
+Slide 8: Quản lý và Hỗ trợ quy trình
+- Quản lí nguồn tài nguyên được sử dụng trong các tiến trình.
+- Cân đối nguồn nhân lực, tài chính, đào tạo và công cụ.
+
+Slide 9: Chất lượng và cải tiến
+- Xác định vai trò của tiến trình xây dựng yêu cầu về các mặt chi phí, thời gian và sự thoả mãn của khách hàng với sản phẩm.
+- Định hướng tiến trình theo các chuẩn chất lượng và xây dựng mô hình cải tiến cho phần mềm và hệ thống.
+- Bao gồm:
++ Độ bao phủ theo các mô hình và chuẩn cải tiến.
++ Việc đo đạc và đánh giá tiến trình.
++ Việc thực hiện và lên kế hoạch cải tiến.
++ Việc cài đặt và lên kế hoạch cho an ninh.
